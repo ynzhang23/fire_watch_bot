@@ -4,7 +4,7 @@ from datetime import datetime
 import os
 
 # Define the directory to save photos
-save_directory = "photos"  # Change this to your desired directory
+save_directory = "./photos"  # Change this to your desired directory
 
 # Create the directory if it doesn't exist
 os.makedirs(save_directory, exist_ok=True)
