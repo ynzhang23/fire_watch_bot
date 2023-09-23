@@ -11,9 +11,10 @@ Data: The first part of creating the model was acquiring data on forest fires an
 
 Creating the neural network: We used Matlab to create our model based on an already available neural network on MatLab called GoogLeNet. We needed to modify the layers of the model so that it could be trained and deployed with our specific data set. 
 
-Training the neural network: We trained the model using the training and validation data. We came up with optimal parameters to train the model such as the minibatch size, initial learning rate, validation frequency, and many more. 
+Training the neural network: We trained the model using the training and validation data. We came up with optimal parameters to train the model such as the minibatch size, initial learning rate, validation frequency, and many more. This is an image of the model being trained: <img width="1193" alt="trianing image" src="https://github.com/ynzhang23/fire_watch_bot/assets/144401108/973e1140-8846-4574-aeaa-3dabc3e5f5bb">
 
-Testing the neural network: Then we tested the model using the test data that we partitioned off before. We created a confusion matrix that plotted our results. The accuracy was "". This is the confusion matrix:
+
+Testing the neural network: Then we tested the model using the test data that we partitioned off before. We created a confusion matrix that plotted our results. The accuracy was 96.64%. This is the confusion matrix: <img width="823" alt="confusion matrix" src="https://github.com/ynzhang23/fire_watch_bot/assets/144401108/c9a5da70-f11a-4b14-b419-60ef35fcc5e1">
 
 
 
