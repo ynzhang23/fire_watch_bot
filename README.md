@@ -22,6 +22,9 @@ Testing the neural network: Then we tested the model using the test data that we
 
 ## Installations to run our code
 pip install opencv-python
+
 pip install keyboard
+
 pip install matlab
+
 $ python -m pip install matlabengine==23.2.1
