@@ -3,7 +3,7 @@ A bot that analyzes photos from a camera to detect forest fires using GoogLeNet.
 ## Project Description: 
 Forest Fires are a major issue affecting climate change by contributing massive amounts of CO2 emissions to the atmosphere. This bot was created in the hopes that it could eventually be run on a vast system of cameras deployed in forests prone to forest fires. The vision is that all these cameras would have a live feed of the forest and will intermittently send an image to the bot to detect if there is a fire. 
 ### Purpose
-The code could be implemented onto a camera attached to a rotational servo. The camera will take periodic photo which will be analyzed by the bot to be presented on a interface used by Fire Watchers.
+The code could be implemented onto a camera attached to a rotational servo. The camera will take periodic photos which will be analyzed by the bot to be presented on a interface used by Fire Watchers.
 
 <img src="https://github.com/ynzhang23/forest-fire-gump/assets/106020817/d57f8a58-8ed2-4539-b35d-68ee52ef47de" width="400">
 
@@ -47,10 +47,14 @@ The first part of creating the model was acquiring data on forest fires and fore
 ### Model Training
 Creating the neural network: We used Matlab to create our model based on an already available neural network on MatLab called GoogLeNet. We needed to modify the layers of the model so that it could be trained and deployed with our specific data set. 
 
-Training the neural network: We trained the model using the training and validation data. We came up with optimal parameters to train the model such as the minibatch size, initial learning rate, validation frequency, and many more. This is an image of the model being trained: <img width="1193" alt="trianing image" src="https://github.com/ynzhang23/fire_watch_bot/assets/144401108/973e1140-8846-4574-aeaa-3dabc3e5f5bb">
+Training the neural network: We trained the model using the training and validation data. We came up with optimal parameters to train the model such as the minibatch size, initial learning rate, validation frequency, and many more. 
 
+<img width="600" alt="trianing image" src="https://github.com/ynzhang23/fire_watch_bot/assets/144401108/973e1140-8846-4574-aeaa-3dabc3e5f5bb">
 
-Testing the neural network: Then we tested the model using the test data that we partitioned off before. We created a confusion matrix that plotted our results. The accuracy was 96.64%. This is the confusion matrix: <img width="823" alt="confusion matrix" src="https://github.com/ynzhang23/fire_watch_bot/assets/144401108/c9a5da70-f11a-4b14-b419-60ef35fcc5e1">
+### Testing the neural network
+Then we tested the model using the test data that we partitioned off before. We created a confusion matrix that plotted our results. The accuracy was 96.64%. This is the confusion matrix: 
+
+<img width="600" alt="confusion matrix" src="https://github.com/ynzhang23/fire_watch_bot/assets/144401108/c9a5da70-f11a-4b14-b419-60ef35fcc5e1">
 
 #### Credits
 forest_map = https://www.patreon.com/posts/forest-trek-36109284
