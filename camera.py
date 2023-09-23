@@ -27,7 +27,6 @@ while True:
         # Save the current frame as an image with the timestamp as the filename in the "photo" folder
         filename = os.path.join(save_directory, f"{timestamp}.jpg")
         cv2.imwrite(filename, frame)
-        print(f"Photo captured and saved as {filename}!")
 
     # Check for the 'q' key to exit the loop
     if cv2.waitKey(1) & 0xFF == ord("q"):
