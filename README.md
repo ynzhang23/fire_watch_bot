@@ -20,6 +20,7 @@ python -m pip install matlabengine
 pip install opencv-python
 pip install keyboard
 ```
+More Info: [How to install matlabengine?](https://www.mathworks.com/help/matlab/matlab_external/python-setup-script-to-install-matlab-engine-api.html)
 ### Usage
 To activate the camera (in this case we will use the web cam for test):
 ```
