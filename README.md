@@ -15,10 +15,10 @@ We have created a conceptual interface that could represent all the cameras depl
 ### Installation
 These are the necessary dependencies to test the code
 ```
-python -m pip install matlabengine==23.2.1
+pip install matlab
+python -m pip install matlabengine
 pip install opencv-python
 pip install keyboard
-pip install matlab
 ```
 ### Usage
 To activate the camera (in this case we will use the web cam for test):
