@@ -20,7 +20,7 @@ Testing the neural network: Then we tested the model using the test data that we
 
 
 
-#dependencies:
+## Installations to run our code
 pip install opencv-python
 pip install keyboard
 pip install matlab
