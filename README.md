@@ -5,11 +5,11 @@ Forest Fires are a major issue affecting climate change by contributing massive 
 ### Purpose
 The code could be implemented onto a camera attached to a rotational servo. The camera will take periodic photos which will be analyzed by the bot to be presented on a interface used by Fire Watchers.
 
-<img src="https://github.com/ynzhang23/forest-fire-gump/assets/106020817/d57f8a58-8ed2-4539-b35d-68ee52ef47de" width="400">
+<img src ="https://i.ytimg.com/vi/-j0w0yQWK80/maxresdefault.jpg" width="400">
 
 We have created a conceptual interface that could represent all the cameras deployed and when one detects a fire, the node corresponding to the camera on the UI will turn red.  
 ### Concept UI
-<img src="https://github.com/ynzhang23/forest-fire-gump/assets/106020817/c6ddc430-c677-4278-9002-e1b045816c7c" width="400">
+<img src ="https://github.com/ynzhang23/forest-fire-gump/assets/106020817/7d7cfe90-022a-4914-9f15-efaf0e719d54" width="400">
 
 ## Usage Guide
 ### Installation
