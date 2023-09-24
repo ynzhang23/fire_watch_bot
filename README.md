@@ -59,3 +59,5 @@ Then we tested the model using the test data that we partitioned off before. We 
 
 #### Credits
 forest_map = https://www.patreon.com/posts/forest-trek-36109284
+
+servo_camera = https://i.ytimg.com/vi/-j0w0yQWK80/maxresdefault.jpg
